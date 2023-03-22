@@ -1,0 +1,104 @@
+{
+  // codeRunner extension settings --START
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  // codeRunner extension settings --END
+
+  // editor block --START
+  "editor.accessibilitySupport": "off",
+  "editor.fontFamily": "'cascadia code', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 18,
+  "editor.formatOnSave": true,
+  "editor.linkedEditing": true,
+  "editor.mouseWheelZoom": true,
+  "editor.semanticHighlighting.enabled": true,
+  "editor.suggestSelection": "first",
+  // editor block --END
+
+  // explorer block --START
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  // explorer block --END
+
+  // format block --START
+  "[c]": { "editor.defaultFormatter": "ms-vscode.cpptools" },
+  "[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[json]": { "editor.defaultFormatter": "vscode.json-language-features" },
+  "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[python]": { "editor.formatOnType": true },
+  // format block --END
+
+  // liveserver extension settings --START
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  // liveserver extension settings --END
+
+  //misc block --START
+  "code-runner.runInTerminal": true,
+  "diffEditor.renderSideBySide": false,
+  "html.format.wrapAttributes": "force-expand-multiline",
+  "notebook.cellToolbarLocation": { "default": "right", "jupyter-notebook": "left" },
+  "prettier.printWidth": 10000,
+  "python.languageServer": "Pylance",
+  "security.workspace.trust.untrustedFiles": "open",
+  "window.titleBarStyle": "custom",
+  //misc block --END
+
+  // SVG extension settings --START
+  "svg.completion.emmet": true,
+  "svg.completion.showAdvanced": true,
+  "svg.minify.cleanupAttrs": false,
+  "svg.minify.collapseGroups": false,
+  "svg.minify.convertEllipseToCircle": false,
+  "svg.minify.convertPathData": false,
+  "svg.minify.convertShapeToPath": false,
+  "svg.minify.convertStyleToAttrs": false,
+  "svg.minify.convertTransform": false,
+  "svg.minify.inlineStyles": false,
+  "svg.minify.mergePaths": false,
+  "svg.minify.minifyStyles": false,
+  "svg.minify.moveElemsAttrsToGroup": false,
+  "svg.minify.removeComments": false,
+  "svg.preview.autoShow": true,
+  "svg.preview.mode": "svg",
+  // SVG extension settings --END
+
+  // terminal block --START
+  "terminal.explorerKind": "external",
+  "terminal.integrated.fontFamily": "Cascadia Code",
+  "terminal.integrated.fontSize": 16,
+  // terminal block --END
+
+  // todo tree extension settings -- START
+  "todo-tree.general.showActivityBarBadge": true,
+  "todo-tree.general.showIconsInsteadOfTagsInStatusBar": true,
+  "todo-tree.general.tags": [" BUG ", " HACK ", " FIXME ", " TODO ", " XXX ", " [ ] ", " [x] ", " ⭕ "],
+  "todo-tree.highlights.useColourScheme": true,
+  "todo-tree.highlights.backgroundColourScheme": ["#fb0049", "#5900dd", "#ff7a41", "#fff946", "#ff0020", "#0240fd", "#6cff8d", "#ffffff"],
+  "todo-tree.highlights.foregroundColourScheme": ["white", "white", "white", "black", "white", "white", "black", "white"],
+  "todo-tree.regex.enableMultiLine": true,
+  "todo-tree.tree.buttons.scanMode": true,
+  // todo tree extension settings -- END
+
+  // workbench block --START
+  "workbench.colorTheme": "Aesthetic",
+  "workbench.editorAssociations": { "*.ipynb": "jupyter-notebook", "*.obj": "3dviewer.viewer" },
+  "workbench.iconTheme": "pop-icon-theme",
+  "workbench.productIconTheme": "material-product-icons",
+  "workbench.startupEditor": "none",
+  // workbench block --END
+
+  //zenmode block --START
+  "zenMode.centerLayout": false,
+  "zenMode.fullScreen": false,
+  "zenMode.hideActivityBar": false,
+  "zenMode.hideLineNumbers": false,
+  "zenMode.hideStatusBar": false,
+  "zenMode.hideTabs": false,
+  "zenMode.restore": false,
+  "zenMode.silentNotifications": false
+  //zenmode block --END
+}
